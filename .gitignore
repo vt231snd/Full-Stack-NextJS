@@ -1,0 +1,112 @@
+# =========================
+# AI Assistants & Agents
+# =========================
+CLAUDE.md
+AGENTS.md
+.cursorrules
+.cursorignore
+.claude
+.agents
+.windsurf
+.windsurfrules
+.cline/
+.cline_project/
+.aider*
+.copilotignore
+
+# =========================
+# OS / Environment / Secrets
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+*.pem
+secrets.json
+
+# =========================
+# IDEs & Editors
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.suo
+*.user
+
+# =========================
+# JavaScript / TypeScript / Node.js (React, Vite, etc.)
+# =========================
+node_modules/
+dist/
+build/
+out/
+.npm/
+coverage/
+.eslintcache
+.stylelintcache
+
+# =========================
+# Python (Flask, etc.)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-log.txt
+.pytest_cache/
+.coverage
+htmlcov/
+instance/
+
+# =========================
+# Java (Maven, Gradle)
+# =========================
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+out/
+
+# =========================
+# C# / .NET
+# =========================
+bin/
+obj/
+TestResults/
+*.rsp
+*.log
+
+# =========================
+# Go
+# =========================
+# Якщо ви компілюєте бінарники в корінь
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# =========================
+# Logs, Cache & Databases
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.sqlite
+*.sqlite3
+*.db
